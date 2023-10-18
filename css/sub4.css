@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/**********  모든 SUB의 공통 **********/
+/********** SUB-common-S **********/
+.visual{background:#85969f url(/img/sub-visual-04.jpg);}
+.lnb ul .lnb-list a {padding: 0 78px;}
+/* .sub-wrap .page-header{margin-bottom: 50px;} */
+/********** SUB-common-E **********/
+
+/********** sub1의 공통 **********/
+/********** SUB1-common-S **********/
+.sec{padding: 70px 0;}
+.sec-tit{
+  margin-bottom: 40px;
+  font-weight: 500;font-size: 27px; line-height: 40px; color: #777;
+}
+.subtit{
+  height: 40px;
+  font-size: 36px; color: #333; line-height: 40px;
+}
+.subtit strong{font-weight: 700;}
+/********** SUB1-common-E **********/
+
+/********** SUB1-1 - S **********/
+/*****info - S *****/
+.info{}
+/***guide - S ***/
+.guide{
+  padding: 50px 0 100px;
+  border-bottom:1px solid #aaa ;
+}
+.guide > div{
+  float: left;
+  width: 600px;height: 255px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.guide > div h4{
+  margin-bottom: 10px;
+  font-weight: 600; font-size: 21px; color: #555; line-height: 29px;
+}
+.guide > div span{
+  margin-bottom: 30px;
+  font-weight: 700; font-size: 32px; color: #333; line-height: 42px;
+}
+.guide .cs::before,.guide .chatbot::before{
+  content: "";
+  float: left;
+  width: 136px;height: 255px;
+  margin-right: 60px;
+  background-image: url(/img/info-bg.jpg);
+}
+.guide > div > div{margin-top: 35px;}
+.guide > div > div > div{color: #999; line-height: 25px;}
+/*CS - S */
+.guide .cs{margin-right: 70px;}
+.guide .cs-wrap{}
+.guide .cs h4{}
+.guide .cs .cs-wrap > span{}
+.guide .cs .cs-txt{
+  width: 100%;
+  margin-top: 25px;
+}
+.guide .cs .cs-txt em{font-weight: 500;font-size: 18px; color: #777;}
+.guide .cs .cs-txt p{margin-top: 10px;}
+/*CS - E */
+/*CHATBOT - S */
+.guide .chatbot{}
+.guide .chatbot-wrap{}
+.guide .chatbot h4{}
+.guide .chatbot a{
+  display: block;
+  width: 405px; height: 42px;
+  background: url(/img/sub4-chat-arrow.png) no-repeat 390px 50%;}
+.guide .chatbot a span{}
+.guide .chatbot .chatbot-txt{}
+.guide .chatbot .chatbot-txt p{margin-top: 60px;}
+/*CHATBOT - E */
+/***guide - E ***/
+
+/***APP - S ***/
+.app{padding: 100px 0;}
+.app .sec-header{
+  width: 100%;  
+  margin-bottom: 50px;
+}
+.app .sec-header .tit{font-weight: 700; font-size: 35px; color: #333; line-height: 42px;}
+.app .sec-header > p{font-size: 18px; color: #999; line-height: 36px;}
+.app .app-tab{
+  width: 100%; height: 55px;
+  margin-bottom: 50px;
+}
+.app .app-tab ul{}
+.app .app-tab ul .tab-list{
+  float: left;
+  width: 638px; height: 55px;
+  border: 1px solid #aaa;
+  font-size: 18px; line-height: 55px; color:#363e41; text-align: center;
+}
+.app .app-tab ul .tab-list:nth-child(1){border-right: 0;}
+.app .app-content{
+  padding-left: 330px;
+  position: relative;
+}
+.app .app-content .app-content-header{margin-bottom: 20px;}
+.app .app-content .app-content-header::before{
+  content: "";
+  width: 160px;height: 160px;
+  background: url(/img/sub4-app-img01.png);
+  position: absolute;left: 85px;top: 0;
+  
+}
+.app .app-content .app-content-header .content-header-txt{}
+.app-content .app-content-header .tit{font-weight: 500; font-size: 32px; color: #555; line-height: 42px;}
+.app-content .app-content-header .desc{font-size: 16px; color: #999; line-height: 30px;}
+.app .app-content .app-content-function{width: 400px; height: 170px;}
+.app-content .app-content-function em{
+  font-weight: 500;font-size: 20px; color: #777; line-height: 50px;}
+.app-content .app-content-function ul{
+  /* list-style:disc; */
+  font-size: 16px; color: #555; line-height: 30px;
+}
+.app-content .app-content-function ul li{
+  float: left;
+  width: 180px;
+}
+.app-content .app-content-function ul li:nth-child(2n-1){margin-right: 20px;}
+.app .app-content .app-content-btn{margin-top: 40px;}
+.app .app-content .app-content-btn > a{
+  float: left;
+  width: 170px;height: 40px;
+  border: 1px solid #363e41;
+  font-size: 14px; color:#363e41; line-height: 40px; text-align: center;
+}
+.app-content .app-content-btn .android{margin-right: 20px;}
+.app-content .app-content-btn .ios{}
+.app .app-img{
+ height: 434px;
+  padding: 90px 0 50px 85px;
+}
+.app .app-img ul{}
+.app .app-img ul li{float: left;}
+.app .app-img ul li+li{margin-left: 44px;}
+.app .app-img ul li img{}
+
+
+.app .app-tab ul .tab-list:hover{
+  color: #fff;
+  background-color: #363e41;
+}
+/***APP - E ***/
+/*****info - E *****/
+
+/*********** SUB1-1 - E ***********/

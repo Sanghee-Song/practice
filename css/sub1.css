@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/**********  모든 SUB의 공통 **********/
+/********** SUB-common-S **********/
+.visual{background:#85969f url(/img/sub-visual-01.jpg);}
+.lnb ul .lnb-list a {padding: 0 177px;}
+/********** SUB-common-E **********/
+
+/********** sub1의 공통 **********/
+/********** SUB1-common-S **********/
+.sec{padding: 70px 0;}
+.sec-tit{
+  margin-bottom: 40px;
+  font-weight: 500;font-size: 27px; line-height: 40px; color: #777;
+}
+.subtit{
+  height: 40px;
+  font-size: 36px; color: #333; line-height: 40px;
+}
+.subtit strong{font-weight: 700;}
+/********** SUB1-common-E **********/
+
+/********** SUB1-1 - S **********/
+/***ESSENCE - S ***/
+.essence-wrap::before{
+  float: left;
+  content: "";
+  display: block;
+  width: 404px;height: 505px;
+  margin-right: 34px;
+  background: url(/img/sub-essence.jpg);
+}
+.essence .essence-scrpit{
+  float: left;
+  width: 842px;
+  margin-top: 245px;
+  text-align: left;
+}
+.essence .essence-scrpit .essence-scrpit-box{margin-top: 10px;}
+.essence .essence-scrpit .essence-scrpit-box p{color: #555; line-height: 28px;}
+.essence .essence-scrpit .essence-scrpit-box p+p{margin-top: 30px;}
+/***ESSENCE - E ***/
+/***VISION - S ***/
+.vision-wrap{
+  height: 480px;
+  padding-top: 65px;
+  background:#000 url(/img/sub-vision-bg.jpg) no-repeat right bottom;
+}
+.vision-wrap .sec-tit{
+  text-align: center;
+  margin-bottom: 108px;
+}
+.vision-wrap p{font-weight: 500;font-size: 48px; line-height: 60px; color: #fff; text-align: center;}
+/***VISION - E ***/
+/***VALUE - S ***/
+.value .value-list{float: left; width: 404px;height: 393px;}
+.value .value-list+.value-list{margin-left: 34px;}
+.value .value-list::before{
+  content: "";
+  display: block;
+  width: 404px;height: 267px; 
+  margin-bottom: 20px;
+}
+.value .value-list:nth-child(1):before{background-image: url(/img/sub-value-img01.jpg);}
+.value .value-list:nth-child(2):before{background-image: url(/img/sub-value-img02.jpg);}
+.value .value-list:nth-child(3):before{background-image: url(/img/sub-value-img03.jpg);}
+.value .value-list p {font-size: 24px; line-height: 40px; color: #333; text-align: center;}
+.value .value-list p span{font-weight: 700;}
+/***VALUE - E ***/
+/***MESSAGE - S ***/
+.message .message-box{
+  float: left;
+  width: 404px;height: 378px;
+  margin-right: 34px;
+}
+.message .message-box-dscr{margin-top: 50px;}
+.message .message-box-dscr p{font-size: 16px; line-height: 28px; color: #555;}
+.message .message-box-dscr p + p{margin-top: 28px;}
+.message-wrap::after{
+  content: "";
+  float: left;
+  width: 842px;height: 406px;
+  background-image: url(/img/sub-message.jpg);
+}
+/*** MESSAGE - E ***/
+/*** SLOGAN - S ***/
+.slogan{
+  width: 100%;height: 420px;
+  padding-top: 65px;
+  background: #c1c2c4 url(/img/sub01-slogan.jpg) no-repeat center center;
+}
+.slogan p{
+  margin-bottom: 97px;
+  font-size: 32px; line-height: 40px; color: #333;
+}
+.slogan p span{font-weight: 700;}
+.slogan .slogan-logo em{
+  float: left;
+  font-size: 60px; line-height: 43px; color: #333 ;
+  margin: 17px 15px 0 0;
+}
+.slogan .slogan-logo::after{
+  content: "";
+  float: left;
+  width: 295px;height: 60px;
+  background-image: url(/img/sub01-slogan-logo.png);
+}
+/*** SLOGAN - E ***/
+/*********** SUB1-1 - E ***********/

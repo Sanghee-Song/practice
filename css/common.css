@@ -1,0 +1,246 @@
+@charset "UTF-8";
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+/* font-family: 'Pretendard'; */
+
+/********** COMMON - S **********/
+a{text-decoration: none; color: inherit;}
+body{font: 16px / 1.2 'Pretendard', dotum , sans-serif; letter-spacing: -0.3px; font-weight: 400;}
+.skip-nav a{
+  width: 100%; height: 30px;
+  line-height: 30px; color: #fff; text-align: center;
+  background-color: #f90;
+  position: absolute; left: 0;top: -9999px; z-index: 10000;
+}
+.skip-nav a:focus{top: 0;}
+.inner{
+  width: 1280px;
+  margin: 0 auto;
+}
+.hide{
+  width: 0;height: 0; overflow: hidden;
+  font-size: 0; line-height: 0; text-indent: -9999px;
+  position: absolute; left: -9999px; top: -999999px;
+}
+.clearfix::after { content: ""; clear: both; display: block; }
+/********** COMMON - E **********/
+/********** HEADER - S **********/
+.header{
+  width: 100%;min-width: 1280px;height: 85px;
+  border-bottom:1px solid rgba(170, 170, 170, 0.7);
+  background-color: #fff;
+  position: absolute; left: 0;top: 0;z-index: 10;
+}
+/*** LOGO - S ***/
+.logo{
+  float: left;
+  width: 119px;height: 24px;
+  margin:30px 140px 0 0;
+}
+.logo a{
+  display: block;
+  width: 119px;height: 24px;
+  text-indent: -99999px;
+  background-image: url(../img/gnb-logo.png);
+}
+/*** LOGO - E ***/
+
+/*** GNB - S ***/
+.gnb{float: left;}
+.gnb ul.depth li.depth1{float: left;}
+.gnb ul.depth li.depth1 > a{
+  display: block;
+  height: 85px;
+  padding: 0 32px;
+  font-weight: 700; font-size: 16px; line-height: 85px; color: #111;
+  position: relative;
+}
+.gnb li.depth1 > a::after{
+  content: "";
+  opacity: 0;
+  width: 0%; height: 5px;
+  background-color: #c30028;
+  position: absolute; left: 0;bottom: 0;
+  transition: all 0.3s;
+}
+.gnb .depth2{
+  display: none;
+  height: 250px;
+  padding-top: 10px;
+  position: relative; 
+  z-index: 20;
+}
+.gnb .depth2 > li > a{
+  display: block;
+  font-size: 14px; line-height: 36px; color: #555; text-align: center;
+}
+.gnb::after{
+  content: "";
+  display: none;/* hover할 때 나오게 */
+  width: 100%;height: 250px;
+  background-color: #fff;
+  position:absolute; left:0; top: 86px;
+}
+.gnb:hover::after{display: block;}
+.gnb:hover .depth2{display: block;}
+.gnb li.depth1:hover > a::after{width: 100%;opacity: 1;}
+/*** GNB - E ***/
+/*** UTIL - S ***/
+.util{ float: right;}
+/* LOGIN - S */
+.util .util-login{
+  float: left;
+  margin-top: 30px;
+  font-size: 14px; color: #333;line-height: 25px;
+}
+.util-login li{float: left;}
+.util-login li:nth-child(2) a{margin-right: 25px;}
+.util-login li:nth-child(n+3) a{display:none}
+.util-login li:nth-child(2n-1) a::after{content: "/"; margin: 0 3px;}
+/* LOGIN - E */
+/* SCH - S */
+.util-sch{float: left;}
+.util-sch .util-sch-btn a{
+  display: block;
+  width: 25px;height: 86px;
+  text-indent: -9999px;
+  background:transparent url(../img/sch-btn.png) no-repeat 0 30px;
+}
+.util-sch .util-sch-box{
+  display: none;
+  width: 100%;
+  position: absolute; left:0;top: 96px;
+  z-index: 30;
+}
+.util-sch-box .util-sch-form fieldset{
+  width: 480px;
+  margin-left: 400px;
+}
+.util-sch-box .util-sch-form input{
+  float: left;
+  width: 400px;height: 64px;
+  margin-right: 10px;
+  border:0;
+  font-size: 16px; line-height: 64px; color: #999; text-indent: 10px; 
+}
+.util-sch-box .util-sch-form button{
+  float: left;
+  width: 64px;height: 64px;
+  padding: 0;
+  border: 0;
+  background:#363e41 url(../img/sch-btn-w.png) no-repeat center center;
+  cursor: pointer;
+  text-indent: -9999px;
+}
+.util-sch-box .util-sch-form fieldset::after{
+  content: "";
+  float: left;
+  width: 400px; height: 1px;
+  background-color: #999;
+}
+.util-sch::after{
+  content: "";
+  display: none;
+  width: 100%;height: 85px;
+  background-color: #fff;
+  position: absolute;left:0px;top: 86px;
+}
+.util-sch:hover::after{display: block;}
+.util-sch:hover .util-sch-box{display: block;}
+/* SCH - E */
+/*** UTIL - E ***/
+/********** HEADER - E **********/
+
+/********** FOOTER - E **********/
+.footer{
+  width: 100%;height: 200px;min-width: 1280px;
+  background: #363e41 url(/img/f-bg.jpg) no-repeat bottom right;
+}
+.footer .inner{padding-top: 45px;}
+.footer .f-logo{
+  float: left;
+  width: 52px;height: 15px;
+  margin-right: 114px;
+}
+.footer .f-menu{
+  float: left; 
+  margin: 0 390px 10px 0;
+}
+.footer .f-menu li{
+  float: left;
+  height: 25px;
+}
+.footer .f-menu li+li{margin-left: 15px;}
+.footer .f-menu li a{font-size: 15px; line-height: 25px; color: #999;}
+.footer .f-menu li:nth-child(2) a{color: #f90;}
+.footer .f-box{float: right;}
+.footer .f-box .f-sns{
+  float: left;
+  margin-right: 40px;
+}
+.footer .f-box .f-sns li{float: left;}
+.footer .f-box .f-sns li+li{margin-left: 16px;}
+.footer .f-box .f-sns li a{
+  display: block;
+  height: 23px;
+  text-indent: -9999px;
+  background-image: url(/img/f-icon.png);
+}
+.footer .f-box .f-sns li:nth-child(1) a{width: 17px;}
+.footer .f-box .f-sns li:nth-child(2) a{
+  width: 31px;
+  background-position: -33px 0;
+}.footer .f-box .f-sns li:nth-child(3) a{
+  width: 12px;
+  background-position: -78px 0;
+}.footer .f-box .f-sns li:nth-child(4) a{
+  width: 23px;
+  background-position: -107px 0;
+}
+.footer .f-box .f-family{
+  float: left;
+  position: relative;
+}
+.footer .f-box .f-family .f-family-tit{
+  width: 120px;height: 22px;
+  border-bottom: 1px solid #aaa;
+  font-size:13px; color: #aaa;
+}
+.footer .f-box .f-family .f-family-tit span{float: right;}
+.footer .f-box .f-family .f-family-box{
+  display: none;
+  width: 100%;
+  padding: 19px 0 19px 19px ;
+  border: 1px solid #999;
+  background-color: #fff;
+  position: absolute;right: 0;bottom: 0;
+}
+.footer .f-box .f-family .f-family-box li{
+  width: 108px;height: 12px;
+  text-indent: -9999px;
+}
+.footer .f-box .f-family .f-family-box li+li{margin-top: 22px;}
+.footer .f-box .f-family .f-family-box li a{
+  display: block;
+  width: 100%; height: 12px;}
+.footer .f-box .f-family .f-family-box li:nth-child(1) a{background-image: url(/img/f-family-img01.png)}
+.footer .f-box .f-family .f-family-box li:nth-child(2) a{background-image: url(/img/f-family-img02.png)}
+.footer .f-box .f-family .f-family-box li:nth-child(3) a{background-image: url(/img/f-family-img03.png)}
+.footer .f-box .f-family:hover .f-family-box{display: block;}
+.footer .f-content{
+  float: left;
+  width: 100%;
+  margin-left: 166px;
+  color: #999;
+}
+.footer .f-content .f-addr {
+  width: 100%;
+  height: 18px;
+  margin-bottom: 10px;
+  font-size: 13px; line-height: 18px;}
+.footer .f-content .f-addr li{float: left; float: left; margin-right: 15px;}
+.footer .f-content .f-addr li span,.footer .f-content .f-addr li address,
+.footer .f-content .f-addr li p{float: left; margin-right: 15px;}
+.footer .f-content .f-copy{
+  height: 18px;
+  font-size: 13px; line-height: 18px;}
+/********** FOOTER - E **********/
