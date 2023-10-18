@@ -153,7 +153,7 @@ body{font: 16px / 1.2 'Pretendard', dotum , sans-serif; letter-spacing: -0.3px; 
 /********** FOOTER - E **********/
 .footer{
   width: 100%;height: 200px;min-width: 1280px;
-  background: #363e41 url(/img/f-bg.jpg) no-repeat bottom right;
+  background: #363e41 url(/practice/img/f-bg.jpg) no-repeat bottom right;
 }
 .footer .inner{padding-top: 45px;}
 .footer .f-logo{
@@ -183,7 +183,7 @@ body{font: 16px / 1.2 'Pretendard', dotum , sans-serif; letter-spacing: -0.3px; 
   display: block;
   height: 23px;
   text-indent: -9999px;
-  background-image: url(/img/f-icon.png);
+  background-image: url(/practice/img/f-icon.png);
 }
 .footer .f-box .f-sns li:nth-child(1) a{width: 17px;}
 .footer .f-box .f-sns li:nth-child(2) a{
@@ -222,9 +222,9 @@ body{font: 16px / 1.2 'Pretendard', dotum , sans-serif; letter-spacing: -0.3px; 
 .footer .f-box .f-family .f-family-box li a{
   display: block;
   width: 100%; height: 12px;}
-.footer .f-box .f-family .f-family-box li:nth-child(1) a{background-image: url(/img/f-family-img01.png)}
-.footer .f-box .f-family .f-family-box li:nth-child(2) a{background-image: url(/img/f-family-img02.png)}
-.footer .f-box .f-family .f-family-box li:nth-child(3) a{background-image: url(/img/f-family-img03.png)}
+.footer .f-box .f-family .f-family-box li:nth-child(1) a{background-image: url(/practice/img/f-family-img01.png)}
+.footer .f-box .f-family .f-family-box li:nth-child(2) a{background-image: url(/practice/img/f-family-img02.png)}
+.footer .f-box .f-family .f-family-box li:nth-child(3) a{background-image: url(/practice/img/f-family-img03.png)}
 .footer .f-box .f-family:hover .f-family-box{display: block;}
 .footer .f-content{
   float: left;
