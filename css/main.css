@@ -18,13 +18,13 @@
   content: "";
   width: 23px;height: 11px;
   margin-left: 8px; margin-top: 16px;
-  background: url(/img/arrow-g.png) 0 0;
+  background: url(/practice/img/arrow-g.png) 0 0;
   position: absolute;left:165px;top: 0;
   transition: all 0.1s;
 }
 .more:hover::after{
   width: 35px;height: 11px;
-  background: url(/img/arrow-g-hover.png) 0 50%;
+  background: url(/practice/img/arrow-g-hover.png) 0 50%;
 }
 /*** VISUAL - S ***/
 .visual{width: 100%;height: 937px; }
@@ -96,14 +96,14 @@
   content: "";
   float: right;
   width: 30px;height: 30px;
-  background-image: url(/img/product-hover-plus.png);
+  background-image: url(/practice/img/product-hover-plus.png);
 }
 .product .product-box .more{
   color: #fff;
   left: -75px; top: 105px;
 }
-.product .product-box .more::after{background-image: url(/img/arrow-w.png);}
-.product .product-box .more:hover::after{background-image: url(/img/arrow-w-hover.png);}
+.product .product-box .more::after{background-image: url(/practice/img/arrow-w.png);}
+.product .product-box .more:hover::after{background-image: url(/practice/img/arrow-w-hover.png);}
 .product-list .product-bg::before{
   content: "";
   opacity: 0;
@@ -124,10 +124,10 @@
   left: 0;
 }
 .product-list:hover .product-bg{left:0;}
-.product .product-box .product-info > a:hover::after{background-image: url(/img/product-hover-plus-h.png);}
+.product .product-box .product-info > a:hover::after{background-image: url(/practice/img/product-hover-plus-h.png);}
 .product .product-box > a:hover::after{
   width: 35px;height: 11px;
-  background-image: url(/img/arrow-w-hover.png);
+  background-image: url(/practice/img/arrow-w-hover.png);
 }
 /*** PRODUCT - E ***/
 /*** NEWS - S ***/
@@ -146,11 +146,11 @@
   content: "";
   position: absolute;left: 330px;top: 250px;
   width: 84px;height: 84px;
-  background-image: url(/img/youtube-play.png);
+  background-image: url(/practice/img/youtube-play.png);
 }
 .news-youtube-box a.news-youtube-link{width: 740px;height: 416px;}
 .news-youtube-box a.news-youtube-link img{opacity: 0.7;}
-.news-youtube-box a.news-youtube-link:hover::after{background-image: url(/img/youtube-play-h.png);}
+.news-youtube-box a.news-youtube-link:hover::after{background-image: url(/practice/img/youtube-play-h.png);}
 /*news-youtube - E*/
 /*news-story - S*/
 .news-story{float: right;}
@@ -190,7 +190,7 @@
   width: 100%;height: 840px;min-width: 1280px;
   padding-top: 95px;
   color: #fff;
-  background: #070405 url(/img/brand-bg.jpg) no-repeat bottom right;
+  background: #070405 url(/practice/img/brand-bg.jpg) no-repeat bottom right;
 }
 .brand .brand-box{margin-top: 440px;}
 .brand .sec-header{margin-bottom: 15px;}
@@ -198,7 +198,7 @@
   display: block;
   width: 134px;height: 27px;
   text-indent: -9999px;
-  background-image: url(/img/brand-logo.png);
+  background-image: url(/practice/img/brand-logo.png);
 }
 .brand .sec-header .tit{font-size: 60px; line-height: 100px;}
 .brand .brand-wrap > p{
@@ -211,9 +211,9 @@
 .brand .brand-more .more{color: #fff;}
 .brand .brand-more .brand-more-story{left: -25px;}
 .brand .brand-more .brand-more-bi{left: 270px;}
-.brand .brand-more .more::after{background-image: url(/img/arrow-w.png);}
+.brand .brand-more .more::after{background-image: url(/practice/img/arrow-w.png);}
 .brand .brand-more .brand-more-story:hover::after,
-.brand .brand-more .brand-more-bi:hover::after{background-image: url(/img/arrow-w-hover.png)}
+.brand .brand-more .brand-more-bi:hover::after{background-image: url(/practice/img/arrow-w-hover.png)}
 /*** BRAND - E ***/
 /*** BENEFIT - S ***/
 .benefit .inner{ position: relative;}
@@ -226,12 +226,12 @@
   width: 100%;height: 250px;
   margin-bottom: 30px;
 }
-.benefit .swiper-slide:nth-child(1) .benefit-box h4::before{background: url(/img/benefit-img01.jpg);}
-.benefit .swiper-slide:nth-child(2) .benefit-box h4::before{background: url(/img/benefit-img02.jpg);}
-.benefit .swiper-slide:nth-child(3) .benefit-box h4::before{background: url(/img/benefit-img03.jpg);}
-.benefit .swiper-slide:nth-child(4) .benefit-box h4::before{background: url(/img/benefit-img04.jpg);}
-.benefit .swiper-slide:nth-child(5) .benefit-box h4::before{background: url(/img/benefit-img05.jpg);}
-.benefit .swiper-slide:nth-child(6) .benefit-box h4::before{background: url(/img/benefit-img06.jpg);}
+.benefit .swiper-slide:nth-child(1) .benefit-box h4::before{background: url(/practice/img/benefit-img01.jpg);}
+.benefit .swiper-slide:nth-child(2) .benefit-box h4::before{background: url(/practice/img/benefit-img02.jpg);}
+.benefit .swiper-slide:nth-child(3) .benefit-box h4::before{background: url(/practice/img/benefit-img03.jpg);}
+.benefit .swiper-slide:nth-child(4) .benefit-box h4::before{background: url(/practice/img/benefit-img04.jpg);}
+.benefit .swiper-slide:nth-child(5) .benefit-box h4::before{background: url(/practice/img/benefit-img05.jpg);}
+.benefit .swiper-slide:nth-child(6) .benefit-box h4::before{background: url(/practice/img/benefit-img06.jpg);}
 .benefit .swiper-slide .benefit-box h4{
   margin-bottom: 10px;
   font-weight: 600; font-size: 20px;line-height: 30px;color: #333;
@@ -270,7 +270,7 @@
   float: left;
   width: 136px;height: 255px;
   margin-right: 60px;
-  background-image: url(/img/info-bg.jpg);
+  background-image: url(/practice/img/info-bg.jpg);
 }
 .info .cs .cs-wrap{float: left;}
 .info .cs h4{margin-bottom: 20px;}
