@@ -1,39 +1,64 @@
 @charset "UTF-8";
 /**********  모든 SUB의 공통 **********/
 /********** SUB-common-S **********/
-.visual{
+.visual {
   margin-bottom: 100px;
-  background:#85969f url(/img/sub-visual-03.jpg);
+  background: #85969f url(/practice/img/sub-visual-03.jpg);
 }
-.sub-wrap .page-header{margin-bottom: 70px;}
+.sub-wrap .page-header {
+  margin-bottom: 70px;
+}
 /********** SUB-common-E **********/
 
 /********** SUB3 - S **********/
 /*** news - S ***/
-.news{padding-bottom: 100px;}
-.news-wrap{}
-.news .news-list{
+.news {
+  padding-bottom: 100px;
+}
+.news-wrap {}
+.news .news-list {
   float: left;
   width: 350px;
   margin-bottom: 45px;
 }
-.news .news-list::before{
+.news .news-list::before {
   content: "";
   display: block;
-  width: 350px;height:350px;
+  width: 350px;
+  height: 350px;
   margin-bottom: 20px;
 }
-.news .news-list:nth-child(1):before{background: url(/img/sub3-img01.jpg);}
-.news .news-list:nth-child(2):before{background: url(/img/sub3-img02.jpg);}
-.news .news-list:nth-child(3):before{background: url(/img/sub3-img03.jpg);}
-.news .news-list:nth-child(4):before{background: url(/img/sub3-img04.jpg);}
-.news .news-list:nth-child(5):before{background: url(/img/sub3-img05.jpg);}
-.news .news-list:nth-child(6):before{background: url(/img/sub3-img06.jpg);}
-.news .news-list+.news-list{margin-left: 115px;}
-.news .news-list:nth-child(4n){margin-left: 0;}
-.news .news-list span{font-size: 22px; color: #333;}
-.news > a{ 
-  width: 40px;height: 22px;
+.news .news-list:nth-child(1):before {
+  background: url(/practice/img/sub3-img01.jpg);
+}
+.news .news-list:nth-child(2):before {
+  background: url(/practice/img/sub3-img02.jpg);
+}
+.news .news-list:nth-child(3):before {
+  background: url(/practice/img/sub3-img03.jpg);
+}
+.news .news-list:nth-child(4):before {
+  background: url(/practice/img/sub3-img04.jpg);
+}
+.news .news-list:nth-child(5):before {
+  background: url(/practice/img/sub3-img05.jpg);
+}
+.news .news-list:nth-child(6):before {
+  background: url(/practice/img/sub3-img06.jpg);
+}
+.news .news-list + .news-list {
+  margin-left: 115px;
+}
+.news .news-list:nth-child(4n) {
+  margin-left: 0;
+}
+.news .news-list span {
+  font-size: 22px;
+  color: #333;
+}
+.news > a {
+  width: 40px;
+  height: 22px;
   margin-left: 618px;
 }
 /*** news - E ***/

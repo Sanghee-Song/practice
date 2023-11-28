@@ -1,203 +1,289 @@
 @charset "UTF-8";
 /**********  모든 SUB의 공통 **********/
 /********** SUB-common-S **********/
-.visual{
+.visual {
   margin-bottom: 100px;
-  background:#85969f url(/img/sub-visual-02.jpg);
+  background: #85969f url(/practice/img/sub-visual-02.jpg);
 }
-.lnb ul .lnb-list a {padding: 0 124px;}
+.lnb ul .lnb-list a {
+  padding: 0 124px;
+}
 /********** SUB-common-E **********/
 
 /********** SUB2 - S **********/
 /*** complex - S ***/
-.complex{}
+.complex {}
 /* complex-info - S */
-.complex .complex-info{margin-bottom: 100px;}
-.complex .complex-info .complex-info-header{
-  width: 100%;height: 80px;
+.complex .complex-info {
+  margin-bottom: 100px;
+}
+.complex .complex-info .complex-info-header {
+  width: 100%;
+  height: 80px;
   margin-bottom: 20px;
   background-color: #363e41;
   position: relative;
 }
-.complex .complex-info .complex-info-header em{
+.complex .complex-info .complex-info-header em {
   display: block;
   width: 100%;
-  font-weight: 500; font-size: 34px; line-height: 80px; color: #fff;text-align: center;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 80px;
+  color: #fff;
+  text-align: center;
 }
-.complex .complex-info .complex-info-header > a{
-  font-size: 20px; line-height: 80px;color: #999;
-  position: absolute; top: 0;
+.complex .complex-info .complex-info-header > a {
+  font-size: 20px;
+  line-height: 80px;
+  color: #999;
+  position: absolute;
+  top: 0;
 }
-.complex .complex-info .complex-info-header .prev{
+.complex .complex-info .complex-info-header .prev {
   padding-left: 50px;
-  background:url(/img/sub2-complex-prev.jpg) no-repeat 0 50%;
+  background: url(/practice/img/sub2-complex-prev.jpg) no-repeat 0 50%;
   left: 40px;
 }
-.complex .complex-info .complex-info-header .next{
+.complex .complex-info .complex-info-header .next {
   padding-right: 50px;
-  background:url(/img/sub2-complex-next.jpg) no-repeat 100% 50%;
+  background: url(/practice/img/sub2-complex-next.jpg) no-repeat 100% 50%;
   right: 40px;
 }
-.complex .complex-info .complex-info-box{
+.complex .complex-info .complex-info-box {
   padding: 50px 0 50px 150px;
   border: 5px solid #bbb;
   position: relative;
 }
-.complex .complex-info-map{
+.complex .complex-info-map {
   float: left;
   margin-right: 150px;
 }
-.complex .complex-info-map p{
-  width: 105px;height: 55px;
+.complex .complex-info-map p {
+  width: 105px;
+  height: 55px;
   color: #fff;
   background-color: #363e41;
-  position: absolute;left: 50px;top: 50px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
 }
-.complex .complex-info-map p .material-symbols-outlined{
+.complex .complex-info-map p .material-symbols-outlined {
   float: left;
   margin: 0 10px 0 20px;
   line-height: 55px;
 }
-.complex .complex-info-map p > strong{
+.complex .complex-info-map p > strong {
   float: left;
-  font-size: 16px;line-height: 55px;
+  font-size: 16px;
+  line-height: 55px;
 }
-.complex .complex-info-map figure{width: 368px;height: 633px;}
-.complex .complex-info-table{float: left;}
-.complex .complex-info-table thead{
+.complex .complex-info-map figure {
+  width: 368px;
+  height: 633px;
+}
+.complex .complex-info-table {
+  float: left;
+}
+.complex .complex-info-table thead {
   height: 45px;
   border-bottom: 1px solid #aaa;
 }
-.complex .complex-info-table thead tr th span{
+.complex .complex-info-table thead tr th span {
   padding: 0 100px;
   border-left: 1px solid #aaa;
-  font-weight: 600; font-size: 16px;line-height: 45px; color: #555;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 45px;
+  color: #555;
 }
-.complex .complex-info-table tbody tr{border-bottom: 1px solid #aaa;}
-.complex .complex-info-table tbody tr th{
+.complex .complex-info-table tbody tr {
+  border-bottom: 1px solid #aaa;
+}
+.complex .complex-info-table tbody tr th {
   padding: 30px 29px 0;
-  font-weight: 500; font-size: 34px; color: #777; line-height: 34px; vertical-align:top}
-.complex .complex-info-table tbody tr td{
+  font-weight: 500;
+  font-size: 34px;
+  color: #777;
+  line-height: 34px;
+  vertical-align: top
+}
+.complex .complex-info-table tbody tr td {
   padding: 32px 20px;
-  font-weight: 500; font-size: 15px; color: #333; line-height: 28px; vertical-align:top
+  font-weight: 500;
+  font-size: 15px;
+  color: #333;
+  line-height: 28px;
+  vertical-align: top
 }
 /* complex-info - E */
 /* complex-product - S */
-.complex-product{}
-.complex-product .complex-product-sch{}
-.complex-product .product-sch-form{}
-.complex-product .product-sch-form fieldset{
-  width: 400px; height: 45px;
+.complex-product {}
+.complex-product .complex-product-sch {}
+.complex-product .product-sch-form {}
+.complex-product .product-sch-form fieldset {
+  width: 400px;
+  height: 45px;
   margin: 0 0 35px 450px;
   border-bottom: 1px solid #888;
 }
-.complex-product .product-sch-form fieldset input{
+.complex-product .product-sch-form fieldset input {
   float: left;
-  width: 350px;height: 32px;
+  width: 350px;
+  height: 32px;
   margin-right: 10px;
-  border:0;
-  font-size: 16px; line-height: 32px; color: #999;
+  border: 0;
+  font-size: 16px;
+  line-height: 32px;
+  color: #999;
 }
-.complex-product .product-sch-form fieldset button{
+.complex-product .product-sch-form fieldset button {
   float: left;
-  width: 33px;height: 33px;
+  width: 33px;
+  height: 33px;
   padding: 0;
   border: 0;
-  background:url(../img/sub2-sch-btn.png) no-repeat center center;
+  background: url(/practice/img/sub2-sch-btn.png) no-repeat center center;
   cursor: pointer;
   text-indent: -9999px;
 }
-.complex-product-tab .lnb{margin-bottom: 75px;}
-.complex-product-content{}
-.complex-product-content .complex-product-list{
+.complex-product-tab .lnb {
+  margin-bottom: 75px;
+}
+.complex-product-content {}
+.complex-product-content .complex-product-list {
   float: left;
-  width: 382px;height: 720px;
+  width: 382px;
+  height: 720px;
   position: relative;
   margin-bottom: 70px;
 }
-.complex-product-content .complex-product-list+.complex-product-list{margin-left: 67px;}
-.complex-product-content .complex-product-list:nth-child(4n){margin-left: 0;}
-.complex-product-list .product-img{
-  position: absolute; left: 0;top: 0;
+.complex-product-content .complex-product-list + .complex-product-list {
+  margin-left: 67px;
+}
+.complex-product-content .complex-product-list:nth-child(4n) {
+  margin-left: 0;
+}
+.complex-product-list .product-img {
+  position: absolute;
+  left: 0;
+  top: 0;
   transition: all 0.3s;
 }
-.complex-product-list .product-img p{
-  width: 77px;height: 88px;
-  font-size: 14px; color: #333; line-height: 45px; text-align: center;
-  background: url(/img/sub2-product-flag.png) no-repeat;
-  position: absolute; left: 30px;top: -20px;
+.complex-product-list .product-img p {
+  width: 77px;
+  height: 88px;
+  font-size: 14px;
+  color: #333;
+  line-height: 45px;
+  text-align: center;
+  background: url(/practice/img/sub2-product-flag.png) no-repeat;
+  position: absolute;
+  left: 30px;
+  top: -20px;
 }
-.complex-product-list:nth-child(n+4) .product-img p{
+.complex-product-list:nth-child(n+4) .product-img p {
   color: #fff;
-  background: url(/img/sub2-product-flag-r.png) no-repeat;
+  background: url(/practice/img/sub2-product-flag-r.png) no-repeat;
 }
-.complex-product-list .product-img figure{
-  width: 100%;height: 382px;
+.complex-product-list .product-img figure {
+  width: 100%;
+  height: 382px;
 }
-.complex-product-list .product-img figure img{}
-.complex-product-list .product-box{position: relative;}
-.complex-product-list .product-info{}
-.complex-product-list .product-info .product-tit h4{
-  font-weight: 500;font-size: 30px; color: #333;line-height: 44px;
-  position: absolute;left: 0;top: 445px;
+.complex-product-list .product-img figure img {}
+.complex-product-list .product-box {
+  position: relative;
 }
-.complex-product-list .product-info .product-tit em{
-  font-size: 16px; color: #c30028;line-height: 29px;
-  position: absolute;left: 0;top: 415px;
+.complex-product-list .product-info {}
+.complex-product-list .product-info .product-tit h4 {
+  font-weight: 500;
+  font-size: 30px;
+  color: #333;
+  line-height: 44px;
+  position: absolute;
+  left: 0;
+  top: 445px;
 }
-.complex-product-list .product-info .product-info-txt{
-  color: #555;line-height: 32px;
-  position: absolute;left: 0;top: 510px;
+.complex-product-list .product-info .product-tit em {
+  font-size: 16px;
+  color: #c30028;
+  line-height: 29px;
+  position: absolute;
+  left: 0;
+  top: 415px;
 }
-.complex-product-list .product-info .product-info-txt li{}
-.complex-product-list .product-info .product-info-txt li p{
+.complex-product-list .product-info .product-info-txt {
+  color: #555;
+  line-height: 32px;
+  position: absolute;
+  left: 0;
+  top: 510px;
+}
+.complex-product-list .product-info .product-info-txt li {}
+.complex-product-list .product-info .product-info-txt li p {
   float: left;
   margin-right: 40px;
 }
-.complex-product-list .product-info .product-info-txt li span{
+.complex-product-list .product-info .product-info-txt li span {
   float: right;
   width: 250px;
 }
-.complex-product-list .product-btn{
+.complex-product-list .product-btn {
   width: 100%;
-  position: absolute;left: 0;top: 650px;
+  position: absolute;
+  left: 0;
+  top: 650px;
 }
-.complex-product-list .product-btn p{
+.complex-product-list .product-btn p {
   float: left;
-  width: 183px;height: 47px;
+  width: 183px;
+  height: 47px;
   border: 1px solid;
-  font-weight: 500; font-size: 14px; line-height: 47px;text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 47px;
+  text-align: center;
 }
-.complex-product-list .product-btn .interest{
+.complex-product-list .product-btn .interest {
   margin-right: 10px;
   border-color: #c30028;
   color: #c30028;
   background-color: rgba(195, 0, 40, 0);
   transition: all 0.3s;
 }
-.complex-product-list .product-btn .homepage{
+.complex-product-list .product-btn .homepage {
   border-color: #363e41;
   color: #363e41;
   background-color: rgba(54, 62, 65, 0);
   transition: all 0.3s;
 }
-.complex-product-content > a{
-  width: 40px;height: 22px;
+.complex-product-content > a {
+  width: 40px;
+  height: 22px;
   margin-left: 618px;
 }
-.complex-product > p{
-  font-size: 13px; color: #999; line-height: 16px;
-  padding-left: 25px; margin: 50px 0;
-  background:url(/img/icon_tip.png) no-repeat 0 50% ;
+.complex-product > p {
+  font-size: 13px;
+  color: #999;
+  line-height: 16px;
+  padding-left: 25px;
+  margin: 50px 0;
+  background: url(/practice/img/icon_tip.png) no-repeat 0 50%;
 }
 
 
-.complex-product-list:hover .product-img{
+.complex-product-list:hover .product-img {
   top: -20px;
   box-shadow: 5px 10px 10px #777;
 }
-.complex-product-list .product-btn p:hover{color: #fff;}
-.complex-product-list .product-btn .interest:hover{background-color: rgba(195, 0, 40, 1);}
-.complex-product-list .product-btn .homepage:hover{background-color: rgba(54, 62, 65, 1)}
+.complex-product-list .product-btn p:hover {
+  color: #fff;
+}
+.complex-product-list .product-btn .interest:hover {
+  background-color: rgba(195, 0, 40, 1);
+}
+.complex-product-list .product-btn .homepage:hover {
+  background-color: rgba(54, 62, 65, 1)
+}
 /*** complex - E ***/
 /*********** SUB2 - E ***********/
